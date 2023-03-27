@@ -23,9 +23,9 @@
       <el-main height="100vh" class="content">
         <!-- Main content -->
         <el-row>
-          <el-col class="" :span="8" :offset="0">
+          <el-col class="ml-5" :span="8" :offset="0">
             <span class="ml-3 w-35 text-gray-600 inline-flex items-center">Using attributes</span>
-            <el-input class="w-10" v-model="input" placeholder="请输入模版名称" size="normal" clearable @change="" />
+            <el-input class="w-40" v-model="input" placeholder="请输入模版名称" size="normal" clearable @change="" />
           </el-col>
           <el-col :span="8" :offset="0">234</el-col>
           <el-col :span="8" :offset="0">345</el-col>
