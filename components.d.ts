@@ -9,14 +9,22 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    ElAutoResizer: typeof import('element-plus/es')['ElAutoResizer']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCol: typeof import('element-plus/es')['ElCol']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElInput: typeof import('element-plus/es')['ElInput']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElOption: typeof import('element-plus/es')['ElOption']
+    ElRadioButton: typeof import('element-plus/es')['ElRadioButton']
+    ElRadioGroup: typeof import('element-plus/es')['ElRadioGroup']
     ElRow: typeof import('element-plus/es')['ElRow']
+    ElS: typeof import('element-plus/es')['ElS']
+    ElSelect: typeof import('element-plus/es')['ElSelect']
+    ElSpace: typeof import('element-plus/es')['ElSpace']
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
+    ElTableV2: typeof import('element-plus/es')['ElTableV2']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
