@@ -16,7 +16,6 @@ import Main from './components/Main.vue'
       </nav>
     </div> -->
 </template>
-
 <style scoped>
 
 </style>
