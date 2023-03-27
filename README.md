@@ -21,6 +21,7 @@ npm install
 yarn add element-plus
 ```
 
+
 ## Project dependencies
 
 ### 按需导入element-plus
@@ -54,6 +55,15 @@ export default defineConfig({
   ],
 })
 ```
+
+### 安装windicss
+
+```sh
+npm i -D vite-plugin-windicss windicss
+```
+
+具体配置见 [安装 windicss](https://cn.windicss.org/integrations/vite.html)
+
 
 ### Compile and Hot-Reload for Development
 
